@@ -1,0 +1,130 @@
+.section-6 {
+    background-image: url("./photo/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .difficult {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 48px;
+    display: flex;
+    gap: 280px;
+  }
+  
+  .question {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    margin-top: 98px;
+    margin-bottom: 39px;
+  }
+  .term {
+    font-weight: 700;
+    font-size: 18px;
+    width: 531px;
+  }
+  .diagrams {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+  }
+  .diagram {
+    width: 127px;
+    height: 296px;
+    background: linear-gradient(
+      180deg,
+      #d819ff 7.69%,
+      #da1ef4 8.36%,
+      #e02dd5 9.71%,
+      #e438bb 11.73%,
+      #e842a8 13.76%,
+      #ea489a 16.45%,
+      #ec4c91 19.15%,
+      #ec4d8f 24.55%,
+      rgba(240, 87, 122, 0) 75.12%
+    );
+    opacity: 30%;
+  }
+  .diagrams div:first-child {
+    margin-top: 142px;
+  }
+  .diagrams div:nth-child(2) {
+    margin-top: 60px;
+  }
+  @media (max-width: 1400px) {
+    .difficult {
+      gap: 150px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .difficult {
+      gap: 100px;
+    }
+    .term {
+      width: 400px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .term {
+      width: 350px;
+    }
+    .diagrams {
+      gap: 25px;
+    }
+    .diagram {
+      width: 90px;
+    }
+  }
+  @media (max-width: 900px) {
+    .difficult {
+      gap: 90px;
+    }
+    .diagrams {
+      gap: 10px;
+    }
+    .term {
+      width: 280px;
+    }
+  }
+  @media (max-width: 768px) {
+    .difficult {
+      /* gap: 90px; */
+      padding-bottom: 50px;
+    }
+    .question {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .term {
+      width: 350px;
+    }
+    .diagrams {
+      display: none;
+    }
+  }
+  @media (max-width: 457px) {
+    .term {
+      width: 250px;
+    }
+  }
+  @media (max-width: 351px) {
+    .difficult {
+      padding-left: 10px;
+      padding-bottom: 80px;
+    }
+    .question {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .term {
+      font-size: 15px;
+      width: 250px;
+    }
+  }
+  @media (max-width: 300px) {
+  .term{
+    width: 170px;
+  }
+  }
