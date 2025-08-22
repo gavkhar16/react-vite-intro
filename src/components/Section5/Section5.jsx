@@ -1,8 +1,8 @@
-import './Section5.css'
+import "./Section5.css";
 
 export default function Section5() {
-    return(
-        <section className="section-5" id="Necessary">
+  return (
+    <section className="section-5" id="Necessary">
       <div className="paragraph">
         <div className="sec5">
           <div className="infor">
@@ -29,5 +29,5 @@ export default function Section5() {
         </div>
       </div>
     </section>
-    )
+  );
 }
