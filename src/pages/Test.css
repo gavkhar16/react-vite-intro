@@ -1,0 +1,62 @@
+/* Контейнер */
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    height: 100vh;
+    background: #f4f6f8; /* светлый нейтральный фон */
+    font-family: "Inter", Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Число */
+  .counter-container h1 {
+    font-size: 72px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Контейнер для кнопок */
+  .button-group {
+    display: flex;
+    gap: 16px;
+  }
+  
+  /* Общие стили кнопок */
+  button {
+    min-width: 80px;
+    padding: 14px 20px;
+    font-size: 28px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease;
+  }
+  
+  /* Плюс */
+  .plus {
+    background: #2e7d32; /* тёмно-зелёный */
+    color: white;
+  }
+  .plus:hover {
+    background: #388e3c;
+    transform: translateY(-2px);
+  }
+  
+  /* Минус */
+  .minus {
+    background: #c62828; /* тёмно-красный */
+    color: white;
+  }
+  .minus:hover {
+    background: #d32f2f;
+    transform: translateY(-2px);
+  }
+  
+  

@@ -26,25 +26,13 @@
     color: #ffffff;
     margin-bottom: 53px;
   }
-  button {
-    cursor: pointer;
-    background: #d819ff;
-    color: #ffffff;
-    width: 355px;
-    height: 71px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    font-size: 21px;
-  }
+  
   
   @media (max-width: 768px) {
     .main {
       width: 450px;
     }
-    button {
-      width: 250px;
-    }
+    
   }
   @media (max-width: 768px) {
     h1 {
@@ -65,9 +53,5 @@
     .hero-section h4 {
       font-size: 15px;
       margin-bottom: 15px;
-    }
-    button {
-      font-size: 15px;
-      width: 150px;
     }
   }

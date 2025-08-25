@@ -1,18 +1,16 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import HeroSection from "./components/Нero-section/Hero-section";
-import Section1 from "./components/Section1/Section1";
-import Section2 from "./components/Section2/Section2";
-import Section3 from "./components/Section3/Section3";
-import Section4 from "./components/Section4/Section4";
-import Section5 from "./components/Section5/Section5";
-import Section6 from "./components/Section6/Section6";
-import Footer from "./components/Footer/Footer";
+import HeroSection from "./pages/Нero-section/Hero-section";
+import Footer from "./pages/Footer/Footer";
+import Section1 from "./pages/Section1/Section1";
+import Section2 from "./pages/Section2/Section2";
+import Section3 from "./pages/Section3/Section3";
+import Section4 from "./pages/Section4/Section4";
+import Section5 from "./pages/Section5/Section5";
+import Section6 from "./pages/Section6/Section6";
 
 const App = () => {
   return (
     <div>
-      <Header />
       <HeroSection />
       <Section1 />
       <Section2 />

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Header.css";
+import "./AppHeader.css";
 
-export default function Header() {
+export default function AppHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
